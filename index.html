@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+        <div class="title">Simple Calculator</div>
+        <!-- <hr style="width: 100%; text-align: left; margin-left: 0;color: palevioletred;"> -->
+        <input type="textbox" id="display" value="" disabled>
+        <div class="inside">
+        <div class="btn">
+            <button class="c" onClick="clear1()">C</button>
+            <!-- <button onClick="append ('+')">+/-</button>  -->
+            <!-- <button onClick="append ('/100')">%</button> -->
+            <button onClick="backspace ()">Del</button>
+            <button onClick="append ('.')">.</button>
+            <button onClick="append ('/')">/</button>
+            <button onClick="append ('8')">9</button>
+            <button onClick="append ('9')">8</button>
+            <button onClick="append ('7')">7</button>
+            <button onClick="append ('*')">x</button>
+            <button onClick="append ('6')">6</button>
+            <button onClick="append ('5')">5</button>
+            <button onClick="append ('4')">4</button>
+            <button onClick="append ('-')">-</button>
+            <button onClick="append ('3')">3</button>
+            <button onClick="append ('2')">2</button>
+            <button onClick="append ('1')">1</button>
+            <button onClick="append ('+')">+</button>
+            <button onClick="append ('0')">0</button>
+            <button class="equal" onClick="calculate()">=</button>
+        </div> <!--end of btn-->
+        </div> <!--end of inside-->
+        <!-- <div class="made">Made with Love</div> -->
+    </div><!--end of container-->
+    </div>
+</body>
+</html>
+<script src="calc.js">
+
+</script>
